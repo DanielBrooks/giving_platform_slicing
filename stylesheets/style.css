@@ -124,6 +124,12 @@ border-radius: 5px;
     width: 24px;
     height: 24px;
 }
+.header-nav .settings a {
+    background: url(../images/icon_settings_24.png) no-repeat;
+    display: block;
+    width: 24px;
+    height: 24px;
+}
 
 
 .header-a .wrap {
@@ -154,6 +160,15 @@ border-radius: 5px;
 
 .causes-header .wrap {
     border: 0;
+}
+.causes-profile-header .search {
+    padding: 0 0 0 32px;
+}
+.causes-profile-header .settings {
+    padding: 0 0 0 103px;
+}
+.causes-profile-header .header-nav {
+    padding: 0 15px 0 0;
 }
 /*----------------------------------------------------------------------------------*/
 /*------------------------------------> Content <-----------------------------------*/
@@ -247,7 +262,8 @@ border-radius: 5px;
     -moz-box-shadow: 0 1px 0 #EDEDED;
     box-shadow: 0 1px 0 #EDEDED;
 }
-.start-group .form-block .btn {
+.start-group .form-block .btn,
+.causes-profile .btn {
     display: block;
     cursor: pointer;
     text-decoration: none;
@@ -261,7 +277,8 @@ border-radius: 5px;
     font: 500 18px "futura-pt";
     margin: 30px 0 0;
 }
-.start-group .form-block a.btn {
+.start-group .form-block a.btn,
+.causes-profile .btn {
     padding: 12px 0 0;
     height: 37px;
 }
@@ -475,6 +492,110 @@ border-radius: 5px;
     display: block;
 }
 
+
+/*----------------------------------------------------------------------------------*/
+/*------------------------------> Causes profile page <-----------------------------*/
+/*----------------------------------------------------------------------------------*/
+.causes-profile .cause-info {
+    overflow: hidden;
+    padding: 13px 0 84px;
+}
+.causes-profile .photo-block,
+.causes-profile .sidebar {
+    float: left;
+    margin: 0 27px 0 0;
+}
+.causes-profile .photo-block img {
+    display: block;
+}
+
+.causes-profile .buttons-block {
+    float: right;
+    width: 150px;
+    padding: 16px 0 0;
+    text-align: center;
+}
+.causes-profile .btn {
+    margin: 0 0 25px;
+    
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.causes-profile .buttons-block .link {
+    color: #000;
+    text-decoration: underline;
+}
+.causes-profile .info {
+    overflow: hidden;
+    padding: 0 30px 0 0;
+}
+.causes-profile .info h1 {
+    font: 700 36px/1.2em "futura-pt";
+    padding: 16px 0 6px 3px;
+}
+.causes-profile .info li {
+    font: 18px/1.44em "futura-pt";
+    padding: 0 0 7px 23px;
+}
+.causes-profile .info .location {
+    background: url(../images/icon_location.png) 3px 5px no-repeat;
+}
+.causes-profile .info .description {
+    background: url(../images/icon_info.png) 0 4px no-repeat;
+}
+.causes-profile h2 {
+    font: 500 24px/1.25em "futura-pt";
+    padding: 51px 0 0;
+}
+.causes-profile .sidebar {
+    width: 270px;
+}
+.causes-profile .campaign-block {
+    overflow: hidden;
+}
+.causes-profile .campaign-block h2 {
+    padding-bottom: 35px;
+}
+.causes-profile .campaign-block .btn {
+    width: 280px;
+    margin: 0 0 90px;
+}
+.causes-profile .campaign-block h3 {
+    font: 500 18px/1.5em "futura-pt";
+}
+.causes-profile .campaign-block p {
+    font: 18px/1.44em "futura-pt";
+    padding: 0 0 12px;
+}
+.groups-featuring-list {
+    padding: 45px 0 0;
+    overflow: hidden;
+}
+.groups-featuring-list li {
+    float: left;
+    width: 100px;
+    overflow: hidden;
+    margin: 0 10px 20px 0;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.groups-featuring-list img {
+    display: block;
+    margin: 0 0 8px;
+}
+.groups-featuring-list a {
+    text-decoration: underline;
+    color: #000;
+}
+
+.causes-profile .icon-groups {
+    background: url(../images/icon_groups.png) 6px 8px no-repeat;
+}
+.causes-profile .icon-campaigns {
+    background: url(../images/icon_campaigns.png) 2px 0 no-repeat;
+}
 /*----------------------------------------------------------------------------------*/
 /*------------------------------------> Footer <------------------------------------*/
 /*----------------------------------------------------------------------------------*/
